@@ -20,3 +20,6 @@ Data:
 
 Each line in the ratings dataset (ratings.dat.gz) is formatted as: UserID::MovieID::Rating::Timestamp
 Create the ratingsRDD : For each line in the ratings dataset, we create a tuple of (UserID, MovieID, Rating). We drop the timestamp because we do not need it here.
+
+Project Processing：
+https://trello.com/b/ylJY2Fan/collaborativefilteringsystem
